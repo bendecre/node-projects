@@ -1,3 +1,5 @@
+What is node.js?
+
 Javascript used to be only used in a browser, not as a stand alone programming language.
 Can make web servers that connect with databases with NodeJS.
 Javascript code can be run on server, not forced to be run on client browser.
@@ -6,3 +8,10 @@ Chrome provides javascript code to it's V8 javascript engine and gets the code b
 Node does the same, with the same engine.
 Javascript code is sent to V8 engine, which executes C++ functions and the V8 engine returns Javascript code again.
 Javascript functions are sent with C++ Bindings. Example: fs.read javascript function, which reads files from a disk, is sent with a c++ binding since c++ can read files from a disk, while javascript cannot.
+
+Why use node.js?
+
+Very popular, useful for any part of full stack development.
+"Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient."
+if it was blocking, the browser would not be able to work while it loads a request (like logging into a website)
+Node.js uses npm, like angular, which is a very large open source library.
