@@ -20,5 +20,6 @@ const user = JSON.parse(dataJSON)
 user.name = 'Ben'
 user.age = '25'
 
+
 const personJSON = JSON.stringify(user)
 fs.writeFileSync('1-json.json', personJSON)
